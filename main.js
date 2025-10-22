@@ -8,3 +8,8 @@ setInterval(function upTime() {
   const layGiatri = document.getElementById("clock");
   layGiatri.textContent = time;
 }, 1000);
+
+const clockContainers = document.getElementById("clock-container");
+const newsAppen = document.createElement("p");
+newsAppen.textContent = "Hello All";
+clockContainers.append(newsAppen);
