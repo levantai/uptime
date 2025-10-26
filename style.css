@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to top left, #2e86de, #feca57);
   background-image: url("./image/1.jpg");
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .clock-container {
